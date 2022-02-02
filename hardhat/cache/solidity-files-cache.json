@@ -1,0 +1,189 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/briot/Documents/Dev/Projects/Innovation/qadappv2/hardhat/contracts/DeviceFactory.sol": {
+      "lastModificationDate": 1643706313327,
+      "contentHash": "21c888b114341ea808985ba1f3965c38",
+      "sourceName": "contracts/DeviceFactory.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Ownable.sol",
+        "./SafeMath.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.22 <=0.8.11"
+      ],
+      "artifacts": [
+        "DeviceFactory"
+      ]
+    },
+    "/Users/briot/Documents/Dev/Projects/Innovation/qadappv2/hardhat/contracts/Ownable.sol": {
+      "lastModificationDate": 1643648361203,
+      "contentHash": "d06c289c4285539f677d629030e60727",
+      "sourceName": "contracts/Ownable.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <=0.8.11"
+      ],
+      "artifacts": [
+        "Ownable"
+      ]
+    },
+    "/Users/briot/Documents/Dev/Projects/Innovation/qadappv2/hardhat/contracts/SafeMath.sol": {
+      "lastModificationDate": 1643648346576,
+      "contentHash": "195afef048f2e58cfba104054080043e",
+      "sourceName": "contracts/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.4.22 <=0.8.11"
+      ],
+      "artifacts": [
+        "SafeMath",
+        "SafeMath16",
+        "SafeMath32"
+      ]
+    },
+    "/Users/briot/Documents/Dev/Projects/Innovation/qadappv2/hardhat/contracts/DeviceHelper.sol": {
+      "lastModificationDate": 1643703127752,
+      "contentHash": "db46c14d0d5f1209ef0f754b42ec1c48",
+      "sourceName": "contracts/DeviceHelper.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./DeviceFactory.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.22 <=0.8.11"
+      ],
+      "artifacts": [
+        "DeviceHelper"
+      ]
+    },
+    "/Users/briot/Documents/Dev/Projects/Innovation/qadappv2/hardhat/contracts/DeviceReport.sol": {
+      "lastModificationDate": 1643706085195,
+      "contentHash": "9b0d6b9abac2ce661361d8233f8633e9",
+      "sourceName": "contracts/DeviceReport.sol",
+      "solcConfig": {
+        "version": "0.8.0",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./DeviceHelper.sol"
+      ],
+      "versionPragmas": [
+        ">=0.4.22 <=0.8.11"
+      ],
+      "artifacts": [
+        "DeviceReport"
+      ]
+    }
+  }
+}
